@@ -1,0 +1,30 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --paragraf-color:#434455;
+    --button-color-on:#F4F4FD;
+    --button-color-off:#404BBF;
+    --title-text-color:#FFFFFF;
+    --title-bgc-text:#4D5AE5;
+}
+
+body {
+    
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--button-color-off);
+    
+}
+
+.button.primary {
+    background-color: var(--button-color-off);
+    color: var(--button-color-on);
+
+}
+.button.secondary {
+    color: var(--button-color-on);
+    background-color: var(--button-color-off);
+}
