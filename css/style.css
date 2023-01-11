@@ -8,9 +8,44 @@
 }
 
 body {
-    
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 2590px;
 }
 
+/* header */
+
+.logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--title-bgc-text)
+}
+
+/* nav */
+
+.site-nav:hover,:focus,:active{
+    color: var(--primary-text-color);
+}
+
+.auth-nav:hover,:focus{
+    color: var(--paragraf-color);
+}
+
+
+/* section hero */
+
+.hero{
+    
+}
+    
+
+.title-hero {
+    
+}
+   
 /* Button */
 
 .button {
