@@ -24,16 +24,36 @@ body {
 
 /* Button */
 
-.button:hover,
-.button:focus {
+.btn:hover,
+.btn:focus {
+    background-color: var(--pressed-state);
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: var(--title-bgc-text);
+    color: var(--title-text-color);
+    cursor: pointer;
+    border: none;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    border:none;
+}
+
+
+.button{
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--title-text-color);
-    background: var(--button-color-off);
+    color: var(--title-bgc-text);
+    background: var(--button-color-on);
     cursor: pointer;
     font-weight: 500;
+    border: none;
+    
     
 }
 
@@ -95,20 +115,47 @@ body {
 
 /* nav */
 
-.site-nav:hover,
-.site-nav:focus,
-.site-nav:active{
+.menu:hover,:focus,:active{
+    color: var(--pressed-state);
+}
+
+
+.menu{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.site-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
-.auth-nav:hover,
-.auth-nav:focus
-.auth-nav:active{
-    color: var(--paragraf-color);
+
+.auth-nav{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-slate-color);
 }
 
-.auth-nav-item{
-    color: var(--paragraf-color);
+.info:hover,:focus,:active{
+    color: var(--pressed-state);
+}
+
+.info{
+    color: var(--text-slate-color);
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* section hero */
@@ -119,19 +166,7 @@ body {
     top: 72px;
 }
 
-.btn {
-    font-family: 'Roboto';
-    font-weight: 500;
-    background: var(--title-bgc-text);
-    color: var(--title-text-color);
-    cursor: pointer;
-    border: none;
-    letter-spacing: 0.04em;
-    font-size: 16px;
-    line-height: 1.5;
-    left: 635px;
-    top: 432px;
-}
+
 
 .title-hero{
     color: var(--title-text-color);
@@ -141,7 +176,7 @@ body {
 
 /* Information section */
 
-.Information-title{
+.information-title{
     color: var(--primary-text-color);
     font-size: 20px;
     line-height: 1.2;
@@ -149,7 +184,7 @@ body {
     font-weight: 500;
 }
 
-.Information-text{
+.information-text{
     color: var(--paragraf-color);
     font-size: 16px;
     line-height: 1.5;
@@ -171,6 +206,9 @@ body {
 /* content */
 
 /* Team */
+.content{
+    background-color: var(--button-color-on);
+}
 
 .content-title{
     color: var(--primary-text-color);
